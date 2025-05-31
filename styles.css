@@ -18,7 +18,22 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 .post-header {
 display: flex;
 align-items: center;
+justify-content: space-between;
 padding: 10px;
+}
+
+.post-author p {
+    margin: 0px;
+}
+
+.post-header-left {
+    display:flex;
+    align-items: center;
+}
+
+.post-header-left i {
+    font-size: 30px;
+    margin-right: 10px;
 }
 
 .post-header img {
